@@ -21,4 +21,3 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.starttls()
     smtp.login(email_address, email_pass)
     smtp.send_message(email)
-    print("All good boss!")
